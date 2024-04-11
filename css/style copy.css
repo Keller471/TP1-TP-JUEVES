@@ -8,17 +8,20 @@ body{
     height: 100vh;
     width: 100%;
 }
-.negro{
+.negro {
     background-color: black;
 }
-.blanco{
-    background-color: white;
-}
-.rojo{
+
+.rojo {
     background-color: red;
 }
-.violeta{
-    background-color: indigo;
+
+.blanco {
+    background-color: white;
+}
+
+.violeta {
+    background-color: violet;
 }
 .container{
     height: 100%;
@@ -30,7 +33,7 @@ body{
         height: 600px;
         width: 50%;
         max-width: 350px;
-        background-color: #f1f1f1;
+        background-color: #000000;
         border-radius: 20px;
         padding: 10px;
         box-shadow: 10px 10px 10px -5px black;
@@ -55,7 +58,7 @@ body{
         & .producto{
             height: 200px;
             width: 100%;
-            background-color: #f1f1f1;
+            background-color: #266df1;
             padding: 10px;
             display: flex;
             justify-content: space-between;
@@ -86,7 +89,7 @@ body{
                 width: 80%;
                 justify-content: space-between;
                 & li{
-                    border: solid 1px grey;
+                    border: solid 1px rgb(52, 39, 228);
                     width:30px;
                     height:30px;
                     border-radius:50%;
@@ -145,6 +148,6 @@ body{
 }
 @media screen and (orientation=portrait){
     .container{
-        background:linear-gradient(180deg,#1f1f1f ,#03a1b6);
+        background: linear-gradient(45deg, cyan, rgb(0, 81, 255));
     }
 }
