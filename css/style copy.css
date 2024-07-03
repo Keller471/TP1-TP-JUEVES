@@ -91,6 +91,15 @@ body{
                     border-radius: 50%;
                     list-style: none;
                 }
+                & li:hover{
+                    transition: 0.4s;
+                    background-color: #1f1f1f;
+                    color: #f1f1f1;
+                    font-weight: bolder;
+                    cursor: pointer;
+                    transform: scale(1.2);
+                }
+
             }
             & ul.talles{
                 display: flex;
